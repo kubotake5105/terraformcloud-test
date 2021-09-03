@@ -1,0 +1,43 @@
+{
+  "version": 4,
+  "terraform_version": "0.12.29",
+  "serial": 17,
+  "lineage": "bcfcdd6d-5878-d3fd-f749-565c50e60d8f",
+  "outputs": {},
+  "resources": [
+    {
+      "mode": "managed",
+      "type": "aws_vpc",
+      "name": "vpc",
+      "provider": "provider.aws",
+      "instances": [
+        {
+          "schema_version": 1,
+          "attributes": {
+            "arn": "arn:aws:ec2:ap-northeast-1:935762823806:vpc/vpc-00e650acd774d36e6",
+            "assign_generated_ipv6_cidr_block": false,
+            "cidr_block": "10.31.0.0/16",
+            "default_network_acl_id": "acl-0c952f20d5ff33e13",
+            "default_route_table_id": "rtb-05fdb6d82063e8ffe",
+            "default_security_group_id": "sg-001d40dafbbd5904d",
+            "dhcp_options_id": "dopt-1fd15f7b",
+            "enable_classiclink": false,
+            "enable_classiclink_dns_support": false,
+            "enable_dns_hostnames": false,
+            "enable_dns_support": true,
+            "id": "vpc-00e650acd774d36e6",
+            "instance_tenancy": "default",
+            "ipv6_association_id": "",
+            "ipv6_cidr_block": "",
+            "main_route_table_id": "rtb-05fdb6d82063e8ffe",
+            "owner_id": "935762823806",
+            "tags": {
+              "Name": "momma-test-vpc"
+            }
+          },
+          "private": "eyJzY2hlbWFfdmVyc2lvbiI6IjEifQ=="
+        }
+      ]
+    }
+  ]
+}
